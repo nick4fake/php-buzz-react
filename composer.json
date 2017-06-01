@@ -1,5 +1,5 @@
 {
-    "name": "clue/buzz-react",
+    "name": "nick4fake/buzz-react",
     "description": "Simple, async HTTP client for concurrently processing any number of HTTP requests, built on top of React PHP",
     "keywords": ["HTTP client", "HTTP", "ReactPHP", "async"],
     "homepage": "https://github.com/clue/php-buzz-react",
@@ -12,6 +12,9 @@
     ],
     "autoload": {
         "psr-4": { "Clue\\React\\Buzz\\": "src/" }
+    },
+    "replace": {
+        "clue/buzz-react": "v1.1"
     },
     "require": {
     	"php": ">=5.3",
