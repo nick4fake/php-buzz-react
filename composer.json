@@ -24,6 +24,7 @@
         "react/dns": "^0.4",
         "react/promise": "^2",
         "react/stream": "^1.0 || ^0.7",
+        "clue/promise-stream-react": "^1.0",
         "psr/http-message": "^1.0",
         "ringcentral/psr7": "^1.2"
     },
